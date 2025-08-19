@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display } from "next/font/google";
+import { Playfair_Display, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const playfairDisplay = Playfair_Display({
@@ -9,6 +9,15 @@ const playfairDisplay = Playfair_Display({
   style: ["normal", "italic"],
   display: 'swap',
 });
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+  weight: ["400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  display: 'swap',
+});
+
 
 export const metadata: Metadata = {
   title: "Enki Studio - AI-Enhanced B2B Design Innovation",
@@ -22,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfairDisplay.variable} font-playfair antialiased`}>
+      <body className={`${playfairDisplay.variable} ${montserrat.variable} font-playfair antialiased`}>
         {children}
       </body>
     </html>

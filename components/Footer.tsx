@@ -18,14 +18,14 @@ export default function Footer() {
         {/* Right: Info and Icons */}
         <div className="flex flex-col items-center md:items-end">
           <div
-            className="text-2xl text-black text-center md:text-right"
+            className="text-lg text-black text-center md:text-right"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             © Enki Studio | a brand under Finding Enki Dot Com Pvt Ltd<br />
             Aesthetic Innovation for the B2B World
           </div>
           <div
-            className="mt-2 text-2xl text-center md:text-right"
+            className="mt-2 text-lg text-center md:text-right"
             style={{ color: "#ff355e", fontFamily: "'Playfair Display', serif" }}
           >
             Global Presence: Boston <span className="mx-1">|</span> Paris <span className="mx-1">|</span> Mumbai

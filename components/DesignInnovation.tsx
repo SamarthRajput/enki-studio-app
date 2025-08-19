@@ -10,7 +10,7 @@ export default function DesignInnovation() {
         Design Innovation Meets Intention
       </h2>
       <div
-        className="text-2xl md:text-3xl text-center leading-relaxed"
+        className="text-2xl md:text-3xl text-center leading-relaxed text-[#404041]"
         style={{ fontFamily: "'Playfair Display', serif" }}
       >
         <div>We design communication</div>

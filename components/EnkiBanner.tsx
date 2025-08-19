@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function EnkiBanner() {
   return (
     <div className="w-full min-h-[600px] bg-[#ff355e] flex flex-col md:flex-row items-center px-6 sm:px-10 md:px-20 py-10">
-      <div className="flex flex-col items-start justify-center w-full max-w-2xl md:ml-10 mb-10 md:mb-0">
+      <div className="flex flex-col items-start justify-center w-full max-w-2xl md:ml-10 mb-10 md:mb-0 ml-[100px]" >
         <div
           className="text-lg sm:text-xl md:text-2xl lg:text-[2rem] font-semibold text-white/60 mb-2 tracking-wide"
           style={{ fontFamily: "'Montserrat', sans-serif" }}
@@ -11,7 +11,7 @@ export default function EnkiBanner() {
           B2B DOES NOT HAVE TO BE
         </div>
         <div
-          className="text-[15vw] sm:text-[12vw] md:text-[8vw] lg:text-[6rem] xl:text-[7rem] font-black text-white/70 mb-4 lg:mb-6 leading-none tracking-wide"
+          className="text-[15vw] sm:text-[12vw] md:text-[8vw] lg:text-[6rem] xl:text-[6rem] font-black text-white/70 mb-4 lg:mb-6 leading-none tracking-wide"
           style={{ fontFamily: "'Montserrat', sans-serif" }}
         >
           BORING
