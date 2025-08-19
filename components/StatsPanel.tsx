@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 
 export default function StatsPanel() {
@@ -69,6 +70,11 @@ export default function StatsPanel() {
         style={{
           borderColor: "#ff355e",
           fontFamily: "'Playfair Display', serif",
+        }}
+        onClick={() => {
+          document.getElementById('contactus')?.scrollIntoView({ 
+            behavior: 'smooth' 
+          });
         }}
       >
         Get In Touch

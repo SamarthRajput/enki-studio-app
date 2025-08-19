@@ -79,7 +79,6 @@ export default function Footer() {
               <Mail color="#ff355e" size={32} strokeWidth={2.2} />
             </a>
           </div>
-
         </div>
       </div>
     </footer>

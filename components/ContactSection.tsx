@@ -2,7 +2,8 @@ import React from "react";
 
 export default function ContactSection() {
   return (
-    <section className="w-full bg-white flex flex-col items-center py-16 px-2">
+    <section className="w-full bg-white flex flex-col items-center py-16 px-2"
+      id="contactus">
       <div className="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center gap-10">
         {/* Left Side: Headline */}
         <div className="w-full md:w-1/2 flex flex-col justify-center md:items-start items-center text-center md:text-left">
