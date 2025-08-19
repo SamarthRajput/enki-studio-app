@@ -30,8 +30,8 @@ export default function ContactSection() {
       await FormSubmission.submitForm(formData);
       setSubmitMessage('Thank you! Your message has been sent successfully.');
       setFormData({ name: '', company: '', email: '', message: '' });
-    } catch (error: any) {
-      setSubmitMessage(error.message || 'Failed to send message. Please try again.');
+    } catch (error) {
+      setSubmitMessage('Failed to send message. Please try again.');
     } finally {
       setIsSubmitting(false);
     }
