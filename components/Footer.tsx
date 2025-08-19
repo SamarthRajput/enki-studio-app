@@ -21,7 +21,7 @@ export default function Footer() {
             className="text-lg text-black text-center md:text-right"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            © Enki Studio | a brand under Finding Enki Dot Com Pvt Ltd<br />
+            © Enki Studio [ a brand under Finding Enki Dot Com Pvt Ltd]<br />
             Aesthetic Innovation for the B2B World
           </div>
           <div

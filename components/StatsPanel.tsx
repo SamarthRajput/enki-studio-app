@@ -9,13 +9,13 @@ export default function StatsPanel() {
         className="max-w-5xl mx-auto text-center mb-16"
         style={{ fontFamily: "'Playfair Display', serif" }}
       >
-        <p className="text-xl md:text-2xl mb-2">
-          We turn product specs into visual seduction.
+        <p className="text-lg md:text-xl lg:text-2xl mb-2">
+          We turn product specs into visual&nbsp;seduction.
         </p>
-        <p className="text-xl md:text-2xl mb-2">
+        <p className="text-lg md:text-xl lg:text-2xl mb-2">
           We simplify without dumbing down.
         </p>
-        <p className="text-xl md:text-2xl">
+        <p className="text-lg md:text-xl lg:text-2xl">
           We make your story the one your clients will want to remember and retell.
         </p>
       </div>
@@ -66,7 +66,7 @@ export default function StatsPanel() {
 
       {/* Get In Touch Button */}
       <button
-        className="mt-4 px-10 py-4 border-2 text-xl rounded-none transition duration-200 font-normal hover:bg-[#ff355e] hover:text-white cursor-pointer"
+        className="mt-4 px-6 py-3 sm:px-10 sm:py-4 border-2 text-lg sm:text-xl rounded-none transition duration-200 font-normal hover:bg-[#ff355e] hover:text-white cursor-pointer"
         style={{
           borderColor: "#ff355e",
           fontFamily: "'Playfair Display', serif",

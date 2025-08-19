@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function EnkiBanner() {
   return (
@@ -35,16 +36,18 @@ export default function EnkiBanner() {
         </div>
       </div>
       <div className="flex-1 flex justify-center md:justify-end items-center w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl">
+        <Link href="https://www.enki.studio" target="_blank" rel="noopener noreferrer">
         <Image
           src="/Enkilogo.svg"
           alt="Enki Studio Logo"
-          width={120}
-          height={120}
-          className="object-contain"
+          width={90}
+          height={90}
+          className="object-contain w-[90px] h-[90px] md:w-[120px] md:h-[120px]"
           style={{ filter: "brightness(0) invert(1)", opacity: 0.9 }}
           priority
-          sizes="(max-width: 768px) 80vw, (max-width: 1024px) 40vw, 120px"
+          sizes="(max-width: 768px) 90px, 120px"
         />
+        </Link>
       </div>
     </div>
   );
