@@ -23,13 +23,13 @@ export default function EnkiBanner() {
           BOOST IT WITH
         </div>
         <div
-          className="flex items-center"
+          className="flex flex-col items-center sm:flex-row sm:items-center"
           style={{ fontFamily: "'Playfair Display', serif" }}
         >
           <span className="text-white font-black text-[12vw] sm:text-[9vw] md:text-[7rem] leading-none">
             AI
           </span>
-          <span className="text-white text-[1.6rem] sm:text-[2.2rem] ml-4">
+          <span className="text-white text-[1.6rem] sm:text-[2.2rem] sm:ml-4 mb-2">
             [Aesthetic Innovation]
           </span>
         </div>
