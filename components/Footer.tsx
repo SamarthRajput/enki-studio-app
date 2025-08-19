@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {  Instagram, Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -57,11 +57,11 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="p-2 rounded hover:bg-[#fde3ea] transition w-[50px] h-[50px] flex items-center justify-center"
+              className="p-[5px] rounded hover:bg-[#fde3ea] transition w-[50px] h-[50px] flex items-center justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="32" height="32"
+                width="50" height="50"
                 viewBox="0 0 256 256"
                 className="block"
                 fill="#ff355e"
@@ -74,7 +74,7 @@ export default function Footer() {
             <a
               href="mailto:hello@enki.studio"
               aria-label="Email"
-              className="p-2 rounded hover:bg-[#fde3ea] transition w-[50px] h-[50px] flex items-center justify-center"
+              className=" rounded hover:bg-[#fde3ea] transition w-[50px] h-[50px] flex items-center justify-center"
             >
               <Mail color="#ff355e" size={32} strokeWidth={2.2} />
             </a>

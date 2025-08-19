@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function EnkiBanner() {
   return (
-    <div className="w-full min-h-[600px] bg-[#ff355e] flex flex-col md:flex-row items-center px-6 sm:px-10 md:px-20 py-10">
+    <div className="w-full min-h-[600px] bg-[#ff355e] flex flex-col md:flex-row items-center px-6 sm:px-10 md:px-20 py-10 overflow-x-hidden">
       <div className="flex flex-col items-start justify-center w-full max-w-2xl md:ml-10 mb-10 md:mb-0 ml-[100px]" >
         <div
           className="text-lg sm:text-xl md:text-2xl lg:text-[2rem] font-semibold text-white/60 mb-2 tracking-wide"
@@ -29,7 +29,7 @@ export default function EnkiBanner() {
           <span className="text-white font-black text-[12vw] sm:text-[9vw] md:text-[7rem] leading-none">
             AI
           </span>
-          <span className="text-white text-[1.8rem] sm:text-[2.2rem] ml-4">
+          <span className="text-white text-[1.6rem] sm:text-[2.2rem] ml-4">
             [Aesthetic Innovation]
           </span>
         </div>

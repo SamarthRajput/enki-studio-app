@@ -2,7 +2,7 @@ import React from "react";
 
 export default function StatsPanel() {
   return (
-    <section className="w-full bg-white py-16 px-6 flex flex-col items-center">
+    <section className="w-full bg-white py-16 px-6 flex flex-col items-center overflow-x-hidden">
       {/* Top centered text block */}
       <div
         className="max-w-5xl mx-auto text-center mb-16"

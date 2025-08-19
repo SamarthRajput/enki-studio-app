@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfairDisplay.variable} ${montserrat.variable} font-playfair antialiased`}>
+      <body className={`${playfairDisplay.variable} ${montserrat.variable} font-playfair antialiased overflow-x-hidden`}>
         {children}
       </body>
     </html>

@@ -28,7 +28,7 @@ const brandClients = [
   },
   {
     name: "L&T Sufin",
-    logoUrl: "/l&t.jpg"
+    logoUrl: "/l&tsuffin.svg"
   }
 ];
 
