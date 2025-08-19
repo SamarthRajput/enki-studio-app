@@ -26,6 +26,10 @@ const brandClients = [
     name: "Pepsico",
     logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PepsiCo_logo.svg/960px-PepsiCo_logo.svg.png?20210115205614",
   },
+  {
+    name: "L&T Sufin",
+    logoUrl: "/l&t.jpg"
+  }
 ];
 
 export default function BrandClientsMarquee() {

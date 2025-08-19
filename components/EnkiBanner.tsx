@@ -2,34 +2,49 @@ import Image from "next/image";
 
 export default function EnkiBanner() {
   return (
-    <div className="w-full min-h-[600px] bg-[#ff355e] flex items-center px-8 md:px-20 py-10">
-      <div className="flex flex-col items-start justify-center w-full max-w-2xl">
-        <div className="text-[2rem] font-semibold text-white/60 mb-2 tracking-wide">
+    <div className="w-full min-h-[600px] bg-[#ff355e] flex flex-col md:flex-row items-center px-6 sm:px-10 md:px-20 py-10">
+      <div className="flex flex-col items-start justify-center w-full max-w-2xl md:ml-10 mb-10 md:mb-0">
+        <div
+          className="text-lg sm:text-xl md:text-2xl lg:text-[2rem] font-semibold text-white/60 mb-2 tracking-wide"
+          style={{ fontFamily: "'Montserrat', sans-serif" }}
+        >
           B2B DOES NOT HAVE TO BE
         </div>
-        <div className="text-[7vw] md:text-[6rem] font-black text-white/70 mb-6 leading-none tracking-wide">
+        <div
+          className="text-[15vw] sm:text-[12vw] md:text-[8vw] lg:text-[6rem] xl:text-[7rem] font-black text-white/70 mb-4 lg:mb-6 leading-none tracking-wide"
+          style={{ fontFamily: "'Montserrat', sans-serif" }}
+        >
           BORING
         </div>
-        <div className="text-[2.3rem] font-bold text-white mb-2 leading-tight" style={{fontFamily: "'Playfair Display', serif"}}>
+        <div
+          className="text-[2rem] sm:text-[2.3rem] font-bold text-white mb-2 leading-tight"
+          style={{ fontFamily: "'Playfair Display', serif" }}
+        >
           BOOST IT WITH
         </div>
-        <div className="flex items-center" style={{fontFamily: "'Playfair Display', serif"}}> 
-          <span className="text-white font-black text-[9vw] md:text-[7rem] leading-none">AI</span>
-          <span className="text-white text-[2.2rem] ml-4" >[Aesthetic Innovation]</span>
+        <div
+          className="flex items-center"
+          style={{ fontFamily: "'Playfair Display', serif" }}
+        >
+          <span className="text-white font-black text-[12vw] sm:text-[9vw] md:text-[7rem] leading-none">
+            AI
+          </span>
+          <span className="text-white text-[1.8rem] sm:text-[2.2rem] ml-4">
+            [Aesthetic Innovation]
+          </span>
         </div>
       </div>
-      <div className="flex-1 flex justify-end items-center">
-        <div className="w-[200px] h-[200px] rounded-full border-2 border-white flex items-center justify-center mr-0 md:mr-10">
-          <Image
-            src="/Enki_Studio-Logo-on_Pink_Black-1.1.png" 
-            alt="Enki Studio Logo"
-            width={120}
-            height={120}
-            className="object-contain"
-            style={{filter: "brightness(0) invert(1)", opacity: 0.9}}
-            priority
-          />
-        </div>
+      <div className="flex-1 flex justify-center md:justify-end items-center w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl">
+        <Image
+          src="/Enkilogo.svg"
+          alt="Enki Studio Logo"
+          width={120}
+          height={120}
+          className="object-contain"
+          style={{ filter: "brightness(0) invert(1)", opacity: 0.9 }}
+          priority
+          sizes="(max-width: 768px) 80vw, (max-width: 1024px) 40vw, 120px"
+        />
       </div>
     </div>
   );
