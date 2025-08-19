@@ -44,22 +44,23 @@ export default function StatsPanel() {
             TRUSTED BY
           </span>
           <span className="text-lg md:text-xl leading-relaxed" style={{ fontFamily: "'Playfair Display', serif" }}>
-            Amazon, Coca-Cola Africa, Reckitt,<br />
-            L&T, Comviva, Perfetti, and more.
+            Amazon, Coca-Cola&nbsp;Africa,<br />
+            Reckitt, L&T, Comviva,<br />
+            Perfetti, and&nbsp;more.
           </span>
         </div>
 
         {/* Global Presence */}
         <div className="flex-1 flex flex-col items-center text-center px-8 py-6">
           <span
-            className="text-2xl md:text-3xl font-extrabold mb-3"
+            className="text-2xl md:text-3xl font-extrabold mb-1 md:mb-3"
             style={{ color: "#ff355e", fontFamily: "'Playfair Display', serif" }}
           >
-            Global Presence
+            Global&nbsp;Presence
           </span>
           <span className="text-lg md:text-xl leading-relaxed" style={{ fontFamily: "'Playfair Display', serif" }}>
-            with teams in<br />
-            <span className="font-extrabold">Boston | Paris | India</span>
+            with teams&nbsp;in<br />
+            <span className="font-extrabold">Boston | Paris |&nbsp;India</span>
           </span>
         </div>
       </div>

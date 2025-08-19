@@ -28,7 +28,7 @@ export default function Footer() {
             className="mt-2 text-lg text-center md:text-right"
             style={{ color: "#ff355e", fontFamily: "'Playfair Display', serif" }}
           >
-            Global Presence: Boston <span className="mx-1">|</span> Paris <span className="mx-1">|</span> Mumbai
+            Boston <span className="mx-1">|</span> Paris <span className="mx-1">|</span> Mumbai
           </div>
           <div className="flex flex-row mt-4">
             <a
