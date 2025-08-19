@@ -60,7 +60,7 @@ export default function StatsPanel() {
           </span>
           <span className="text-lg md:text-xl leading-relaxed" style={{ fontFamily: "'Playfair Display', serif" }}>
             with teams&nbsp;in<br />
-            <span className="font-extrabold">Boston | Paris |&nbsp;India</span>
+            <span className="font-extrabold">Gurgaon | Boston | Paris</span>
           </span>
         </div>
       </div>
